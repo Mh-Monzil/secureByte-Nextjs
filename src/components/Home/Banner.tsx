@@ -28,7 +28,7 @@ const Banner = () => {
           <Button
             variant="outline"
             size="lg"
-            className="text-lg capitalize mt-7 py-3 flex items-center gap-2 group border-teal-500"
+            className="text-lg capitalize mt-7 py-3 flex items-center gap-2 group border-teal-500 mx-auto"
           >
             <span>Let&#39;s connect</span>
             <ArrowUpRight className="group-hover:rotate-45 transition-all duration-300 ease-in-out group-hover:translate-x-1" />
