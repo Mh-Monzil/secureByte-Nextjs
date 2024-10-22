@@ -40,7 +40,7 @@ const ChooseUs = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {chooseUsDetails.map((c, idx) => (
-          <CardSpotlight key={idx} className=" max-w-96">
+          <CardSpotlight key={idx} className=" max-w-96 mx-auto">
             <span className="text-4xl">{c.icon}</span>
             <h4 className="text-2xl font-bold relative z-20 mt-4 text-white">
               {c.title}
