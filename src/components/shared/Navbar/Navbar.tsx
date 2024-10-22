@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="relative">
           <Image src={Logo} alt="logo" width={45} height={10} className="" />
           
-          <div className=" absolute -right-32 bottom-0 text-xl font-medium text-white/90">
+          <div className=" absolute -right-28 bottom-0 text-xl font-medium text-white/90">
             <SparklesCore
             id="tsparticlesfullpage"
             background="transparent"
