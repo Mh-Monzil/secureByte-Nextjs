@@ -4,11 +4,11 @@ import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
 import Logo from "/public/logo2.png";
 import { Button } from "@/components/ui/button";
-import { FlipWords } from "@/components/ui/flip-words";
+// import { FlipWords } from "@/components/ui/flip-words";
 import { SparklesCore } from "@/components/ui/sparkles";
 
 const Navbar = () => {
-  const words = ["SecureByte", "SafeGuard"];
+  // const words = ["SecureByte", "SafeGuard"];
 
   return (
     <div className=" backdrop-blur-lg sticky top-0 z-50">
