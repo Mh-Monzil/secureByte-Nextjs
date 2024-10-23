@@ -23,7 +23,7 @@ const Navbar = () => {
             background="transparent"
             minSize={0.5}
             maxSize={1.4}
-            particleDensity={1000}
+            particleDensity={900}
             className="absolute w-full h-full"
             particleColor="#FFFFFF"
           />

@@ -1,5 +1,6 @@
 import Banner from "@/components/Home/Banner";
 import ChooseUs from "@/components/Home/ChooseUs";
+import ContactUs from "@/components/Home/ContactUs";
 import HowWeWork from "@/components/Home/HowWeWork";
 import TrustedCompany from "@/components/Home/TrustedCompany";
 
@@ -11,6 +12,7 @@ export default function Home() {
         <TrustedCompany />
         <ChooseUs />
         <HowWeWork />
+        <ContactUs />
       </div>
     </main>
   );

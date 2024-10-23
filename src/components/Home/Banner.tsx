@@ -18,12 +18,16 @@ const Banner = () => {
       <div className="max-w-[1140px] mx-auto md:h-[450px] w-full flex flex-col-reverse md:flex-row justify-between items-center gap-x-5 gap-y-10 rounded-3xl px-4 md:px-8 lg:px-10 z-20 mt-6 md:mt-4">
         <div className="w-full md:w-1/2 mx-auto text-center md:text-start">
           <span className="text-3xl md:text-4xl lg:text-5xl xl:text-[52px] font-bold w-full">
-            <FlipWords words={words} duration={6000} className="text-center md:text-start" />
+            <FlipWords
+              words={words}
+              duration={6000}
+              className="text-center md:text-start"
+            />
           </span>
           <p className="text-lg mt-5 leading-8">
-            Secure your systems and prevent threats with advanced firewalls,
-            monitoring, and penetration testing services. Stay one step ahead
-            with our proactive security strategies.
+            SecureByte offers top-tier cybersecurity solutions tailored to your
+            needs. From risk assessment to incident response, we lead in
+            safeguarding your digital assets against evolving threats.
           </p>
           <Button
             variant="outline"

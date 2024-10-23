@@ -13,7 +13,7 @@ const TrustedCompany = () => {
   return (
     <div className="h-60 flex flex-col justify-center gap-5 mt-10 lg:mt-16">
       <h3 className="text-center font-semibold text-2xl">
-        Trusted By 2M+ Companies Globally
+        Trusted By 116+ Companies Globally
       </h3>
       <Marquee>
         <div className="flex items-center gap-10 h-20">

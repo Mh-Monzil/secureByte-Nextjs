@@ -52,7 +52,7 @@ const ChooseUs = () => {
         ))}
       </div>
       <div className="flex justify-end mt-6">
-        <Link href={"/contact"} className="border-b-2 border-white pb-1 mr-1">Learn More</Link>
+        <Link href={"/contact"} className="border-b-2 border-white pb-1 mr-1 hover:text-teal-400 hover:border-b-teal-400 transition-all duration-300 ease-in-out">Learn More</Link>
       </div>
     </div>
   );
